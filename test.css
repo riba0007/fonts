@@ -8,7 +8,7 @@ header#header {
 .wufoo .info {
     display: none;
 }
-.wufoo input.large, textarea.textarea {
+.wufoo input.text, textarea.textarea {
     border: 1px solid #e6e6e6;
     background: none;
     border-radius: 5px;
