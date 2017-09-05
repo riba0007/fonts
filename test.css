@@ -1,7 +1,9 @@
 .wufoo {
     font-family: 'Lato', sans-serif;
 }
-
+html.embed {
+    background-color: transparent;
+}
 header#header {
     display: none;
 }
