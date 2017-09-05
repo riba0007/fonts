@@ -1,7 +1,14 @@
+.wufoo {
+    font-family: 'Lato', sans-serif;
+}
+
 header#header {
     display: none;
 }
-input.large, textarea.textarea {
+.wufoo .info {
+    display: none;
+}
+.wufoo input.large, textarea.textarea {
     border: 1px solid #e6e6e6;
     background: none;
     border-radius: 5px;
@@ -9,15 +16,15 @@ input.large, textarea.textarea {
     padding: 11px 15px;
     box-sizing: border-box;
 }
-label.desc {
+.wufoo label.desc {
     font-size: 1rem;
     font-family: 'Lato', sans-serif;
     color: #27282d;
 }
-.buttons div {
+.wufoo .buttons div {
     text-align: center;
 }
-input#saveForm {
+.wufoo input#saveForm {
     border: none;
     color: white;
     background-color: #f9be00;
@@ -26,7 +33,7 @@ input#saveForm {
     transition: all .3s ease-out;
     font-size: 1rem;
 }
-form li.focused {
+.wufoo form li.focused {
     background-color: rgba(58, 58, 58, 0.12);
     border-radius: 10px;
 }
