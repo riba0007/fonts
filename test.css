@@ -1,0 +1,32 @@
+header#header {
+    display: none;
+}
+input.large, textarea.textarea {
+    border: 1px solid #e6e6e6;
+    background: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 11px 15px;
+    box-sizing: border-box;
+}
+label.desc {
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    color: #27282d;
+}
+.buttons div {
+    text-align: center;
+}
+input#saveForm {
+    border: none;
+    color: white;
+    background-color: #f9be00;
+    padding: 15px 40px;
+    border-radius: 30px;
+    transition: all .3s ease-out;
+    font-size: 1rem;
+}
+form li.focused {
+    background-color: rgba(58, 58, 58, 0.12);
+    border-radius: 10px;
+}
