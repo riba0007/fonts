@@ -12,7 +12,6 @@ header#header {
 }
 .wufoo input.text, .wufoo textarea.textarea {
     border: 1px solid #e6e6e6;
-    border-radius: 5px;
     font-size: 1rem;
     padding: 11px 15px;
     box-sizing: border-box;
