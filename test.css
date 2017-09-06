@@ -16,6 +16,8 @@ header#header {
     font-size: 1rem;
     padding: 11px 15px;
     box-sizing: border-box;
+    background: none;
+    background-color: #fff;
 }
 .wufoo label.desc {
     font-size: 1rem;
