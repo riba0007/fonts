@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+.wufoo {
+    font-family: 'Source Sans Pro';
+    letter-spacing: 0.01em;
+}
+
+.wufoo .info {
+    display: none; }
+
+#container, html.embed {
+    background-color: #f8f9fa !important;}
+
+.embed #container {
+    width: 68% !important; }
+
+@media (max-width: 992px) {
+  embed #container {
+    width: 90% !important; } }
+
+#container {
+    text-align: center;
+    background: #f8f9fa !important; }
+
+input.text, input.search, textarea.textarea {
+    border: none;
+    background: #fff;
+    border-radius: .09rem;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1); }
+
+input.text, input.search, input.file, textarea.textarea, select.select {
+    font-family: 'Source Sans Pro' !important;
+    font-size: 1rem !important;
+    padding: 10px;
+    box-sizing: border-box; }
+
+.wufoo li div label, form li span label {
+    margin-left: 5px;
+    padding-top: 3px;
+    clear: both;
+    font-size: 1.08rem !important;
+    line-height: 160%;
+    color: #fff !important;
+    display: block;
+}
+
+label.desc, legend.desc {
+    font-size: 1.25rem !important;
+    font-weight: 300 !important;
+    text-align: left;
+    color: #22252a !important; }
+
+.wufoo li.focused {
+    background-color: transparent !important;
+    border-radius: .09rem;
+}
+
+.wufoo span.req {
+    margin: 0;
+    padding: 0;
+    font-size: 1.25rem !important;
+    font-weight: 300 !important;
+    text-align: left;
+    color: #22252a !important; }
+
+/*.safari input.btTxt {
+    font-size: 130%;
+}*/
+
+.wufoo li {
+    margin: auto; }
+
+.wufoo li.buttons input {
+    font-family: 'Source Sans Pro';
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+    font-weight: 700;
+    border-radius: .09rem;
+    background-color: #fba100!important;
+    color: #fff!important;
+    padding: 1rem 2.5rem;
+    border: 1px solid #fba100;
+    transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; }
+
+.wufoo li.buttons input:hover, .wufoo li.buttons input:focus, .wufoo li.buttons input:active {
+    background-color: #ec9a06 !important;
+    border-color: #ec9a06 !important; }
+
+textarea.textarea {
+    width: 293px;
+    height: 150px; }
+
+.wufoo li.error {
+    background-color: rgba(185, 161, 155, 0.29) !important;
+    border-radius: 0.09rem; }
+
+.wufoo #errorLi, .wufoo .error-container {
+    display: none !important; }
+
+form li.error p.error {
+<<<<<<< HEAD
+    display: none; }
+=======
+<<<<<<< HEAD
+    display: none; }
+=======
+    display: none; }
+>>>>>>> master
+>>>>>>> gh-pages
